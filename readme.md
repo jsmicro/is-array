@@ -30,11 +30,11 @@ bower install --save jsmicro-is-array
 ## NodeJS Usage
 
 ```bash
-npm install --save jsmicro-is-array
+npm install --save @jsmicro/is-array
 ```
 
 ```js
-const obj = require('jsmicro-is-array');
+const obj = require('@jsmicro/is-array');
 
 // Available in the global object.
 isArray(function() {}); // true
